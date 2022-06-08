@@ -92,10 +92,138 @@ header .header-bot{
     height: 200px;
     border: black 2px solid;
 }
-
-
-
-
-
-
 /*fine header*/
+
+/*inizio main*/
+main{
+    width: 100%;
+}
+
+main .container-main{
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+.container-main .container-col{
+    display: flex;
+}
+
+.container-main .col{
+    border: lightgrey 1px solid;
+    height: 950px;
+    width: calc(100% / 3);
+    margin: 40px 10px;
+}
+
+.container-main .team{
+    border: lightgrey 1px solid;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container-main .contatto{
+    border: black 2px solid;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin: 150px 0;
+}
+
+.contatto .foto-right{
+    border: black 2px solid;
+    width: 65%;
+    height: 100%;
+}
+
+.contatto .scritta-left{
+    border: black 2px solid;
+    width: 30%;
+    height: 100%;
+}
+
+.container-main .operazioni{
+    border: black 2px solid;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 100%;
+}
+
+.operazioni .row{
+    border: black 2px solid;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operazioni .row .column{
+    border: black 2px solid;
+    height: 100%;
+    width: calc( 100% / 3 ) ; 
+    display: flex;
+    flex-direction: column;
+}
+
+.column .top, .column .bot{
+    border: black 2px solid;
+    height: 100%;
+    width: 100%;
+}
+
+.blocco-square{
+    height: 1000px;
+}
+
+.row-square-top{
+    border: black 2px solid;
+    height: 60%;
+    display: flex; 
+}
+
+.row-square-top .column-square, .row-square-top .column-square-big{
+    border: black 2px solid;
+    height: 100%;
+    width: calc( 100% / 3 );
+}
+
+.row-square-top .column-square-big{
+    background-color: lightgrey;
+}
+
+.row-square-top .column-square{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-square .square{
+    border: black 2px solid;
+    height: 50%;
+    width: 50%;
+}
+
+.row-square-bot{
+    height: 40%;
+    background-color: #b4d0e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.row-square-bot .square-bot{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+
+
+
+
+/*fine main*/
