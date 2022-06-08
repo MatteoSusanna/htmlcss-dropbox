@@ -69,13 +69,13 @@ header .header-bot{
 }
 
 .jumbo-top{
-    width: 1270px;
+    width: 70%;
     height: 200px;
     border: black 2px solid;
 }
 
 .jumbo-bot{
-    width: 1270px;
+    width: 70%;
     height: 200px;
     border: black 2px solid;
     display: flex;
@@ -228,6 +228,14 @@ main .container-main{
 /*fine main*/
 
 /*inizio footer*/
+
+footer{
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
 
 
 
