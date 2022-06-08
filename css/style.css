@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/*inizio style button*/
+/*fine style button*/
+
+
+/*inizio header*/
+
+header .header-top{
+    height: 80px;
+    width: 100%;
+    display: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .right, .left, .right ul, .left ul{
+    display: flex;
+    align-items: center;
+}
+
+.right, .left{
+    padding: 10px;
+}
+
+header .header-top ul li{
+    list-style: none;
+    margin: 0px 15px;
+}
+
+header .header-top li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+header .header-bot{
+    border: black 2px solid;
+    height: 800px;
+}
+
+.header-bot .color{
+    border: black 2px solid;
+    height: 90%;
+    background-color: #b4d0e7;
+}
+
+
+
+/*fine header*/
