@@ -20,8 +20,14 @@ button{
     padding: 10px 15px;
     border: none;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
+.button1{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}
 /*fine style button*/
 
 
@@ -159,6 +165,45 @@ main .container-main{
     height: 950px;
     width: calc(100% / 3);
     margin: 40px 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.row-1{
+    height: 5%;
+    border-bottom: lightgrey 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.col .container-in{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.container-in .container-dati{
+    height: 350px;
+}
+
+.col ul li{
+    list-style: none;
+    margin: 30px 0;
+}
+
+.col ul li i{
+    margin-right: 10px;
+}
+
+i.fa-solid.fa-check {
+    color: #0061ff;
+}
+
+hr{
+    margin: 30px 0;
 }
 
 .container-main .team{
@@ -166,10 +211,27 @@ main .container-main{
     height: 250px;
     width: 100%;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
+.row-height{
+    height: 15%;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-2 .content h3, h4, span{
+    margin: 20px;
+    font-size: 20px;
+}
+/*fine primo blocco*/
+
+/*inizio secondo blocco*/
 .container-main .contatto{
-    border: black 2px solid;
     display: flex;
     justify-content: space-between;
     height: 500px;
@@ -177,19 +239,32 @@ main .container-main{
 }
 
 .contatto .foto-right{
-    border: black 2px solid;
     width: 65%;
     height: 100%;
 }
 
+.foto-right img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
 .contatto .scritta-left{
-    border: black 2px solid;
     width: 30%;
     height: 100%;
 }
 
-.container-main .operazioni{
-    border: black 2px solid;
+.scritta-left p{
+    margin: 30px 0;
+}
+
+.scritta-left h3{
+    font-size: 40px;
+}
+/*fine secondo blocco*/
+
+/*inizio terzo blocco*/
+.operazioni{
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
@@ -198,7 +273,6 @@ main .container-main{
 }
 
 .operazioni .row{
-    border: black 2px solid;
     height: 50%;
     width: 100%;
     display: flex;
@@ -206,19 +280,27 @@ main .container-main{
 }
 
 .operazioni .row .column{
-    border: black 2px solid;
     height: 100%;
     width: calc( 100% / 3 ) ; 
     display: flex;
     flex-direction: column;
+    padding: 15px;
+}
+
+.operazioni .top img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .column .top, .column .bot{
-    border: black 2px solid;
     height: 100%;
     width: 100%;
 }
+/*fine terzo blocco*/
 
+
+/*inizio quarto blocco*/
 .blocco-square{
     height: 1000px;
 }
