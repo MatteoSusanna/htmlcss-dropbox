@@ -318,7 +318,7 @@ hr{
 }
 
 .row-square-top .column-square-big{
-    background-color: lightgrey;
+    background-color: #f5f5f5;
 }
 
 .row-square-top .column-square{
@@ -330,6 +330,48 @@ hr{
     border: black 2px solid;
     height: 50%;
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-green{
+    background-color: #a2d39b;
+}
+
+.square img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+}
+
+.s-bord{
+    background-color: #61082b;
+}
+
+.s-blue{
+    background-color: #0093ce;
+}
+
+.s-red{
+    background-color: #ff1c1c;
+}
+
+.s-sred{
+    background-color: #d5001f;
+}
+
+.s-celeste{
+    background-color: #b4d0e7;
+}
+
+.s-blu{
+    background-color: #a2d39b;
+}
+
+.s-yellow{
+    background-color: #ffd830;
 }
 
 .row-square-bot{
