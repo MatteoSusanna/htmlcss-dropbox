@@ -221,9 +221,15 @@ main .container-main{
     justify-content: space-between; 
 }
 
-
-
-
-
-
+.domande-frequenti{
+    width: 50%;
+    margin: 100px auto;
+}
 /*fine main*/
+
+/*inizio footer*/
+
+
+
+
+/*fine footer*/
