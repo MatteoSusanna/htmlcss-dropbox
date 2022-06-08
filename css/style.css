@@ -14,22 +14,45 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 /*inizio style button*/
+button{
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 15px;
+}
+
 /*fine style button*/
 
 
 /*inizio header*/
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 60px;
+    margin: 30px 0;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 
 header .header-top{
     height: 80px;
     width: 100%;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    box-shadow: 5px 3px #0061ff;
     position: fixed;
     z-index: 9999;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-top .right, .left, .right ul, .left ul{
@@ -49,54 +72,75 @@ header .header-top ul li{
 header .header-top li a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 
 
 header .header-bot{
-    border: black 2px solid;
     height: 800px;
     margin-top: 80px;
 }
 
 .header-bot .color{
-    border: black 2px solid;
     height: 90%;
     background-color: #b4d0e7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    position: relative;
 }
 
 .jumbo-top{
-    width: 70%;
+    width: 60%;
     height: 200px;
-    border: black 2px solid;
 }
 
 .jumbo-bot{
-    width: 70%;
+    width: 60%;
     height: 200px;
-    border: black 2px solid;
     display: flex;
 }
 
 .jumbo-right{
-    width: 50%; 
-    height: 200px;
-    border: black 2px solid;
+    width: 70%; 
+    height: 450px;
+    
+}
+
+.jumbo-right img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .jumbo-left{
-    width: 50%;
+    width: 30%;
     height: 200px;
-    border: black 2px solid;
+}
+
+.jumbo-left .arrow-down{
+    position: absolute;
+    bottom: 0;
+    font-size: 60px;
+    
 }
 /*fine header*/
 
 /*inizio main*/
+.style-radio{
+    display: inline-block;
+    border: 3px solid lightgrey;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.border{
+    border: 5px solid blue;
+}
+
 main{
     width: 100%;
 }
@@ -104,7 +148,6 @@ main{
 main .container-main{
     width: 50%;
     margin: 20px auto;
-
 }
 
 .container-main .container-col{
