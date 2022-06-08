@@ -22,13 +22,14 @@ body{
 header .header-top{
     height: 80px;
     width: 100%;
-    display: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
 }
 
 .header-top .right, .left, .right ul, .left ul{
@@ -55,6 +56,7 @@ header .header-top li a{
 header .header-bot{
     border: black 2px solid;
     height: 800px;
+    margin-top: 80px;
 }
 
 .header-bot .color{
