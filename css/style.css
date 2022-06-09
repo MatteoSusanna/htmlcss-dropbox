@@ -14,9 +14,6 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 /*inizio style button*/
 button{
     background-color: #0061ff;
@@ -79,6 +76,14 @@ header .header-top{
 
 .right, .left{
     padding: 10px;
+}
+
+.right ul li:hover{
+    border-bottom: 3px solid #0061ff;
+}
+
+.left ul li:hover{
+    border-bottom: 3px solid #0061ff;
 }
 
 header .header-top ul li{
@@ -333,6 +338,10 @@ hr{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.square:hover{
+    border: 10px solid rgba( 0, 0, 0, 0.3)
 }
 
 .square img{
