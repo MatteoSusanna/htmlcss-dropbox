@@ -296,6 +296,7 @@ hr{
     width: 30% ; 
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .operazioni .top img{
@@ -305,6 +306,10 @@ hr{
 .column .top, .column .bot{
     height: 100%;
     width: 100%;
+}
+
+.column:hover{
+    transform: scale(1.2);
 }
 /*fine terzo blocco*/
 
@@ -406,7 +411,9 @@ hr{
 .square-bot h2{
     color: #61082b;
 }
+/*fine quarto blocco*/
 
+/*inizio quinto blocco*/
 .domande-frequenti{
     width: 50%;
     margin: 100px auto;
@@ -415,6 +422,7 @@ hr{
 
 .domande-frequenti h3{
     display: inline-block;
+    font-size: 20px;
 }
 
 .domande-frequenti i{
@@ -422,6 +430,10 @@ hr{
     right: 5%;
 }
 
+.domande-frequenti h3:hover{
+    margin-bottom: 50px;
+}
+/*fine quinto blocco*/
 
 /*fine main*/
 
