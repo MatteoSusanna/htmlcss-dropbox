@@ -25,8 +25,15 @@ button{
 
 .button1{
     background-color: white;
-    color: grey;
-    border: 1px solid grey;
+    color: black;
+    border: 1px solid black;
+}
+
+.button2{
+    border: white 1px solid;
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
 }
 /*fine style button*/
 
@@ -224,9 +231,13 @@ hr{
     justify-content: space-around;
 }
 
-.row-2 .content h3, h4, span{
-    margin: 20px;
+.content h3{
+    font-size: 50px;
+}
+
+.content h4, .content span{
     font-size: 20px;
+    margin: 20px 0;
 }
 /*fine primo blocco*/
 
@@ -306,19 +317,23 @@ hr{
 }
 
 .row-square-top{
-    border: black 2px solid;
     height: 60%;
     display: flex; 
 }
 
 .row-square-top .column-square, .row-square-top .column-square-big{
-    border: black 2px solid;
     height: 100%;
     width: calc( 100% / 3 );
 }
 
 .row-square-top .column-square-big{
     background-color: #f5f5f5;
+    padding: 50px;
+    overflow: auto;
+}
+
+.column-square-big p{
+    margin: 70px 0;
 }
 
 .row-square-top .column-square{
@@ -327,23 +342,21 @@ hr{
 }
 
 .column-square .square{
-    border: black 2px solid;
     height: 50%;
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square img{
+    height: 50%;
+    width: 60%;
 }
 
 .s-green{
     background-color: #a2d39b;
-}
-
-.square img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-    width: 50%;
 }
 
 .s-bord{
@@ -390,10 +403,26 @@ hr{
     justify-content: space-between; 
 }
 
+.square-bot h2{
+    color: #61082b;
+}
+
 .domande-frequenti{
     width: 50%;
     margin: 100px auto;
+    position: relative;
 }
+
+.domande-frequenti h3{
+    display: inline-block;
+}
+
+.domande-frequenti i{
+    position: absolute;
+    right: 5%;
+}
+
+
 /*fine main*/
 
 /*inizio footer*/
@@ -415,9 +444,24 @@ footer{
 }
 
 .footer-top .col-footer{
-    border: white 2px solid;
     height: 300px;
     width: calc( 100% / 5 ) ;
+}
+
+.col-footer ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.col-footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.col-footer h3{
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
 .footer-bot{
