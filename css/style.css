@@ -341,7 +341,11 @@ hr{
 }
 
 .square:hover{
-    border: 10px solid rgba( 0, 0, 0, 0.3)
+    border: 10px solid rgba( 0, 0, 0, 0.3);
+}
+
+.square:active{
+    transform: scale(0.9);
 }
 
 .square img{
