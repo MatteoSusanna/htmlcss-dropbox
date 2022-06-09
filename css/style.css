@@ -124,8 +124,6 @@ header .header-bot{
 
 .jumbo-right img{
     width: 100%;
-    height: 100%;
-    background-size: cover;
 }
 
 .jumbo-left{
@@ -251,9 +249,7 @@ hr{
 }
 
 .foto-right img{
-    width: 100%;
     height: 100%;
-    background-size: cover;
 }
 
 .contatto .scritta-left{
@@ -294,8 +290,6 @@ hr{
 
 .operazioni .top img{
     width: 100%;
-    height: 100%;
-    background-size: cover;
 }
 
 .column .top, .column .bot{
@@ -306,12 +300,8 @@ hr{
 
 
 /*inizio quarto blocco*/
-.blocco-square{
-    height: 1000px;
-}
 
 .row-square-top{
-    height: 60%;
     display: flex; 
 }
 
@@ -345,7 +335,6 @@ hr{
 }
 
 .square img{
-    height: 50%;
     width: 60%;
 }
 
@@ -382,7 +371,6 @@ hr{
 }
 
 .row-square-bot{
-    height: 40%;
     background-color: #b4d0e7;
     display: flex;
     align-items: center;
