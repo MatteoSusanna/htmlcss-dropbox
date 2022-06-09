@@ -13,6 +13,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /*inizio style button*/
 button{
     background-color: #0061ff;
@@ -157,7 +161,7 @@ main{
 
 main .container-main{
     width: 50%;
-    margin: 20px auto;
+    margin: 100px auto;
 }
 
 .container-main .container-col{
@@ -267,22 +271,19 @@ hr{
 
 /*inizio terzo blocco*/
 .operazioni{
-    margin-bottom: 100px;
+    margin: 200px 0;
     display: flex;
     flex-direction: column;
-    height: 1000px;
-    width: 100%;
+ 
 }
 
 .operazioni .row{
-    height: 50%;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .operazioni .row .column{
-    height: 100%;
     width: 30% ; 
     display: flex;
     flex-direction: column;
@@ -454,8 +455,14 @@ footer{
 
 .footer-bot span{
     border-top: 1px solid white;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 25px;
     color: lightgrey;
+    padding: 10px;
+}
+
+.footer-bot i{
+    font-size: 15px;
+    color: lightgrey;
+    padding: 10px;
 }
 /*fine footer*/
