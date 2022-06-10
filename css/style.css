@@ -418,18 +418,38 @@ hr{
 .domande-frequenti{
     width: 50%;
     margin: 100px auto;
-    position: relative;
 }
 
 .domande-frequenti h3{
-    display: inline-block;
     font-size: 20px;
+    display: inline-block;
 }
 
-.domande-frequenti i{
+.cont i{
     position: absolute;
-    right: 5%;
+    left: 95%;
 }
+
+.domande-frequenti .cont{
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 0;
+    position: relative;
+    
+}
+
+.domande-frequenti .cont1{
+    border-top: 1px solid lightgrey;
+}
+
+.cont p{
+    display: none;
+}
+
+.cont:hover p{
+    margin: 30px 30px 0;
+    display: block;
+}
+
 /*fine quinto blocco*/
 
 /*fine main*/
