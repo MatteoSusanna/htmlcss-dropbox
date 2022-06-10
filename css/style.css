@@ -14,6 +14,10 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*inizio style button*/
 button{
     background-color: #0061fe;
@@ -63,30 +67,29 @@ header .header-top{
     height: 80px;
     width: 100%;
     background-color: white;
-    box-shadow: 5px 3px #0061ff;
     position: fixed;
     z-index: 9999;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.header-top .right, .left, .right ul, .left ul{
+.right, .left, .right ul, .left ul{
     display: flex;
     align-items: center;
+    padding: 0 10px;
+    height: 100%;
 }
 
-.right, .left{
-    padding: 10px;
+.right li, .left li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid white;
 }
 
-.right ul li:hover{
-    border-bottom: 3px solid #0061ff;
-}
-
-.left ul li:hover{
+.right ul li:hover, .left ul li:hover{
     border-bottom: 3px solid #0061ff;
 }
 
@@ -164,10 +167,6 @@ header .header-bot{
     border: 5px solid blue;
 }
 
-main{
-    width: 100%;
-}
-
 main .container-main{
     width: 50%;
     margin: 100px auto;
@@ -185,7 +184,8 @@ main .container-main{
     width: 30%;
     margin: 40px 0px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 15px; 
 }
 
 .row-1{
@@ -211,6 +211,7 @@ main .container-main{
 .col ul li{
     list-style: none;
     margin: 30px 0;
+    text-indent: -14px;
 }
 
 .col ul li i{
@@ -429,16 +430,12 @@ hr{
     position: absolute;
     right: 5%;
 }
-
-.domande-frequenti h3:hover{
-    margin-bottom: 50px;
-}
 /*fine quinto blocco*/
 
 /*fine main*/
 
-/*inizio footer*/
 
+/*inizio footer*/
 footer{
     height: 500px;
     background-color: black;
